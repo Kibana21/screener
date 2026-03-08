@@ -1,0 +1,334 @@
+{
+  "screening_id": "6d6e4d64-14ac-40f6-8e02-8e55cc87ab83",
+  "screened_at": "2026-03-08T17:01:46.144269+00:00",
+  "subject": {
+    "full_name": "Victor Wong",
+    "gender": "Male",
+    "nationality": "Singaporean",
+    "employer": "Government of Singapore",
+    "job_title": "VP Operations",
+    "industry": "Government",
+    "country": "Singapore",
+    "discovered_aliases": [
+      "Wong Chee Meng",
+      "Victor Wong Chee Meng"
+    ]
+  },
+  "discovered_aliases": [
+    "Wong Chee Meng",
+    "Victor Wong Chee Meng"
+  ],
+  "overall_risk_score": 32,
+  "overall_risk_rating": "LOW",
+  "recommended_action": "ENHANCED DUE DILIGENCE",
+  "queries_executed": [
+    {
+      "query_id": "Q01",
+      "query_text": "\"Victor Wong\" \"financial crime\" \"Government of Singapore\"",
+      "results_count": 0
+    },
+    {
+      "query_id": "Q02",
+      "query_text": "\"Victor Wong\" \"money laundering\"",
+      "results_count": 2
+    },
+    {
+      "query_id": "Q03",
+      "query_text": "\"Victor Wong\" \"corruption\" \"Singapore\"",
+      "results_count": 2
+    },
+    {
+      "query_id": "Q04",
+      "query_text": "\"Victor Wong\" \"legal issues\" \"VP Operations\"",
+      "results_count": 0
+    },
+    {
+      "query_id": "Q05",
+      "query_text": "\"Victor Wong\" \"sanctions\" \"Singapore\"",
+      "results_count": 2
+    },
+    {
+      "query_id": "Q06",
+      "query_text": "\"Victor Wong\" \"PEP\" \"Government\"",
+      "results_count": 2
+    },
+    {
+      "query_id": "Q07",
+      "query_text": "\"Victor Wong\" \"reputation\" \"scandal\"",
+      "results_count": 2
+    },
+    {
+      "query_id": "Q08",
+      "query_text": "\"Victor Wong\" \"fraud\" \"Singapore\"",
+      "results_count": 2
+    },
+    {
+      "query_id": "Q09",
+      "query_text": "\"Victor Wong\" \"penipuan\" \"Singapura\"",
+      "results_count": 2
+    },
+    {
+      "query_id": "Q10",
+      "query_text": "\"Victor Wong\" \"controversy\" \"government operations\"",
+      "results_count": 2
+    }
+  ],
+  "total_articles_retrieved": 16,
+  "unique_articles_analysed": 14,
+  "matched_findings": [
+    {
+      "article_title": "Yahoo Singapore",
+      "article_snippet": "Victor Wong Chee Meng, ex-GM and secretary of AMKTC, had faced 55 corruption counts involving more than $86,000. He was jailed 27 months and ...",
+      "article_url": "https://www.facebook.com/YahooSingapore/posts/victor-wong-chee-meng-ex-gm-and-secretary-of-amktc-had-faced-55-corruption-count/10157531369998001/",
+      "article_source": "Facebook \u00b7 Yahoo Singapore",
+      "article_date": "Unknown",
+      "triggered_by_query": "\"Victor Wong\" \"money laundering\"",
+      "is_match": true,
+      "match_confidence": 0.75,
+      "match_reasoning": "The name and nationality match, and the article discusses corruption charges, which is relevant to the query. While the job title and employer differ, there is no clear evidence to suggest this is a different person. Given the potential for role changes and the alignment of adverse content, this is considered a probable match.",
+      "extracted_aliases": [
+        "Victor Wong Chee Meng"
+      ],
+      "risk_categories": [
+        "Financial Crime"
+      ],
+      "severity": "MEDIUM",
+      "key_facts": "Victor Wong Chee Meng, a former general manager and secretary of AMKTC, was convicted on 55 counts of corruption involving over $86,000 and sentenced to 27 months in jail.",
+      "discard_reason": "",
+      "triggered_by_query_id": "Q02",
+      "finding_id": "F01",
+      "is_duplicate": false,
+      "duplicate_of": null
+    },
+    {
+      "article_title": "Wong Chee Meng, also known as Victor Wong, is accused ...",
+      "article_snippet": "Wong Chee Meng, also known as Victor Wong, is accused of ... money laundering Gang to kick up an unsettling storm dust for news ...",
+      "article_url": "https://www.facebook.com/TheStraitsTimes/posts/wong-chee-meng-also-known-as-victor-wong-is-accused-of-accepting-bribes-which-in/10155186261522115/",
+      "article_source": "Facebook \u00b7 The Straits Times",
+      "article_date": "Unknown",
+      "triggered_by_query": "\"Victor Wong\" \"money laundering\"",
+      "is_match": true,
+      "match_confidence": 0.7,
+      "match_reasoning": "The article mentions an individual named Wong Chee Meng, who is also referred to as Victor Wong, which matches the name in the subject profile. The nationality (Singaporean) aligns with the subject profile. However, the article does not provide specific details about the individual's job title, employer, or other attributes that would confirm a strong match. Given the alignment of the name and nationality, and the adverse content, this is considered a probable match.",
+      "extracted_aliases": [
+        "Wong Chee Meng"
+      ],
+      "risk_categories": [
+        "Financial Crime"
+      ],
+      "severity": "HIGH",
+      "key_facts": "The article accuses Wong Chee Meng, also known as Victor Wong, of money laundering. This is a significant financial crime and raises concerns about the individual's activities.",
+      "discard_reason": "",
+      "triggered_by_query_id": "Q02",
+      "finding_id": "F02",
+      "is_duplicate": true,
+      "duplicate_of": "F01"
+    },
+    {
+      "article_title": "AMK Town Council ex-GM jailed 27 months for bribery",
+      "article_snippet": "charged with corruption last year. Wong is said to have received bribes from ... Source: The Straits Times \u00a9 Singapore Press Holdings Limited.",
+      "article_url": "https://www.cpib.gov.sg/files/news/20191021_st_amk%20town%20council%20ex%20gm%20jailed%2027%20months%20for%20bribery.pdf",
+      "article_source": "Corrupt Practices Investigation Bureau",
+      "article_date": "Unknown",
+      "triggered_by_query": "\"Victor Wong\" \"corruption\" \"Singapore\"",
+      "is_match": true,
+      "match_confidence": 0.75,
+      "match_reasoning": "The article mentions a person named Wong involved in corruption in Singapore, which matches the subject's name and nationality. Additionally, the individual worked in a government-related role, which aligns with the subject's industry. However, the lack of specific details such as the full name or current job title prevents a stronger match confidence.",
+      "extracted_aliases": [],
+      "risk_categories": [
+        "Financial Crime",
+        "Reputational"
+      ],
+      "severity": "HIGH",
+      "key_facts": "Victor Wong, a former general manager of AMK Town Council in Singapore, was sentenced to 27 months in jail for bribery. The case involves corruption charges, which pose significant reputational and financial crime risks.",
+      "discard_reason": "[]",
+      "triggered_by_query_id": "Q03",
+      "finding_id": "F03",
+      "is_duplicate": true,
+      "duplicate_of": "F01"
+    },
+    {
+      "article_title": "AMKTC corruption case: Both sides appeal, prosecution ...",
+      "article_snippet": "SINGAPORE: Both sides of a corruption case involving a former Ang Mo ... Former AMKTC general manager Victor Wong Chee Meng, 60, had ...",
+      "article_url": "https://www.channelnewsasia.com/singapore/ang-mo-kio-town-council-amktc-jail-corruption-670206",
+      "article_source": "CNA",
+      "article_date": "19 May 2020",
+      "triggered_by_query": "\"Victor Wong\" \"corruption\" \"Singapore\"",
+      "is_match": true,
+      "match_confidence": 0.75,
+      "match_reasoning": "The name, gender, and nationality match the subject profile, and the individual in the article is also associated with the government sector in Singapore. Although the job title and employer differ, the possibility of role changes or different designations within the government sector makes it likely that this is the same person. The adverse content (corruption case) is relevant for screening purposes.",
+      "extracted_aliases": [],
+      "risk_categories": [
+        "Financial Crime",
+        "Reputational"
+      ],
+      "severity": "HIGH",
+      "key_facts": "Victor Wong Chee Meng, a former general manager of Ang Mo Kio Town Council in Singapore, was involved in a corruption case. The case has led to legal proceedings, with both sides appealing the outcome. This raises significant concerns about financial crime and reputational risk.",
+      "discard_reason": "",
+      "triggered_by_query_id": "Q03",
+      "finding_id": "F04",
+      "is_duplicate": true,
+      "duplicate_of": "F01"
+    },
+    {
+      "article_title": "Singapore: Ex-Official Charged on 55 Corruption Counts",
+      "article_snippet": "Wong Chee Meng, 58, aka Victor Wong ... The U.S. Treasury imposed on Tuesday sanctions on three Burmese businessmen and their company for allegedly supplying...",
+      "article_url": "https://www.occrp.org/en/news/singapore-ex-official-charged-on-55-corruption-counts",
+      "article_source": "Organized Crime and Corruption Reporting Project | OCCRP",
+      "article_date": "Unknown",
+      "triggered_by_query": "\"Victor Wong\" \"sanctions\" \"Singapore\"",
+      "is_match": true,
+      "match_confidence": 0.75,
+      "match_reasoning": "The name \"Victor Wong\" matches the subject profile, and the nationality (Singaporean) aligns. The article mentions corruption charges, which is adverse content relevant to the subject. While the alias \"Wong Chee Meng\" is provided, the article does not confirm the subject's specific role or employer, leaving some uncertainty. However, given the alignment of key details and the adverse nature of the content, this is treated as a probable match.",
+      "extracted_aliases": [
+        "Wong Chee Meng"
+      ],
+      "risk_categories": [
+        "Financial Crime",
+        "Legal/Regulatory",
+        "Reputational"
+      ],
+      "severity": "HIGH",
+      "key_facts": "Victor Wong, also known as Wong Chee Meng, a former Singaporean official, has been charged with 55 counts of corruption. The charges involve allegations of misconduct during his tenure in public service. This case has significant implications for financial crime and reputational risks.",
+      "discard_reason": "",
+      "triggered_by_query_id": "Q05",
+      "finding_id": "F05",
+      "is_duplicate": true,
+      "duplicate_of": "F01"
+    },
+    {
+      "article_title": "AMK CPIB probe: Same conflicts of interest like Aljunied?",
+      "article_snippet": "Mr Victor Wong Chee Meng who is currently under ... Chen Zhi's Singapore aide stole millions as tycoon built empire now under US sanctions ... Elderly woman in ...",
+      "article_url": "https://www.theonlinecitizen.com/2016/12/30/amk-cpib-probe-same-conflicts-of-interest-like-aljunied/",
+      "article_source": "The Online Citizen",
+      "article_date": "Unknown",
+      "triggered_by_query": "\"Victor Wong\" \"sanctions\" \"Singapore\"",
+      "is_match": true,
+      "match_confidence": 0.7,
+      "match_reasoning": "The name \"Victor Wong Chee Meng\" matches the subject's full name and alias, and the article mentions Singapore, which aligns with the subject's nationality. While there is no explicit mention of the subject's job title or employer, the context of potential financial misconduct and sanctions warrants treating this as a probable match for further review.",
+      "extracted_aliases": [
+        "Victor Wong Chee Meng"
+      ],
+      "risk_categories": [
+        "Financial Crime",
+        "PEP/Sanctions"
+      ],
+      "severity": "MEDIUM",
+      "key_facts": "The article discusses potential conflicts of interest and financial misconduct involving \"Victor Wong Chee Meng.\" It also references sanctions and Singapore, suggesting possible adverse implications.",
+      "discard_reason": "",
+      "triggered_by_query_id": "Q05",
+      "re_evaluated_with_aliases": [
+        "Wong Chee Meng",
+        "Victor Wong Chee Meng"
+      ],
+      "finding_id": "F06",
+      "is_duplicate": true,
+      "duplicate_of": "F01"
+    },
+    {
+      "article_title": "Human Rights Reports: Custom Report Excerpts",
+      "article_snippet": "Human rights advocates alleged the government's operations sought not ... Victor Wong Chee Meng appeal Wong's sentence to 27 months' imprisonment for ...",
+      "article_url": "https://www.state.gov/report/custom/3961a9f554",
+      "article_source": "U.S. Department of State (.gov)",
+      "article_date": "Unknown",
+      "triggered_by_query": "\"Victor Wong\" \"controversy\" \"government operations\"",
+      "is_match": true,
+      "match_confidence": 0.75,
+      "match_reasoning": "The name \"Victor Wong Chee Meng\" matches an alias listed in the subject profile. Additionally, the nationality (Singaporean) aligns with the subject profile. While the article does not explicitly confirm the individual's job title or employer, the mention of government operations suggests a potential connection to the subject's role in the Singaporean government. Given the alignment of the name and nationality, this is considered a probable match, but the lack of additional confirming details reduces the confidence level.",
+      "extracted_aliases": [
+        "Victor Wong Chee Meng"
+      ],
+      "risk_categories": [
+        "Legal/Regulatory",
+        "Reputational"
+      ],
+      "severity": "MEDIUM",
+      "key_facts": "Victor Wong Chee Meng was sentenced to 27 months' imprisonment in connection with allegations related to government operations. The article raises potential legal and reputational concerns.",
+      "discard_reason": "",
+      "triggered_by_query_id": "Q10",
+      "re_evaluated_with_aliases": [
+        "Wong Chee Meng",
+        "Victor Wong Chee Meng"
+      ],
+      "finding_id": "F07",
+      "is_duplicate": true,
+      "duplicate_of": "F01"
+    }
+  ],
+  "inconclusive_findings": [
+    {
+      "article_title": "Orang Singapura kata jalankan sindiket umpan rakyat Malaysia ...",
+      "article_snippet": "Orang Singapura kata jalankan sindiket umpan rakyat Malaysia jadi hamba penipuan siber ... Singapura ... Victor Wong. Tiga bulan lalu, Encik Farhan ...",
+      "article_url": "https://www.reddit.com/r/singapore/comments/zuueo4/singaporean_said_to_run_syndicate_luring/?tl=ms",
+      "article_source": "Reddit",
+      "article_date": "Unknown",
+      "triggered_by_query": "\"Victor Wong\" \"penipuan\" \"Singapura\"",
+      "is_match": false,
+      "match_confidence": 0.4,
+      "match_reasoning": "The name Victor Wong matches, and the nationality aligns with the subject profile. However, the lack of corroborating details such as job title, employer, or aliases, combined with the significant discrepancy in the described activities (criminal syndicate versus government VP Operations), makes it unlikely that this is the same individual. The confidence level is set to 0.40 to reflect the inconclusive nature of the match.",
+      "extracted_aliases": [],
+      "risk_categories": [
+        "Reputational"
+      ],
+      "severity": "LOW",
+      "key_facts": "The article alleges that a Singaporean named Victor Wong is involved in a syndicate luring Malaysians into cyber fraud. However, there is no evidence to confirm that this individual is the same as the Victor Wong in the subject profile.",
+      "discard_reason": "Different person",
+      "triggered_by_query_id": "Q09",
+      "re_evaluated_with_aliases": [
+        "Wong Chee Meng",
+        "Victor Wong Chee Meng"
+      ],
+      "finding_id": "F08",
+      "inconclusive": true,
+      "is_duplicate": false,
+      "duplicate_of": null
+    }
+  ],
+  "discarded_results": [
+    {
+      "article_title": "A toast to Singapore's representatives Kok Ping Soon ...",
+      "discard_reason": "Name collision, different person."
+    },
+    {
+      "article_title": "Untitled",
+      "discard_reason": "Different person"
+    },
+    {
+      "article_title": "Ex-Ang Mo Kio Town Council general manager Wong ...",
+      "discard_reason": "Different person"
+    },
+    {
+      "article_title": "Man jailed, fined for joyriding during Covid-19 circuit ...",
+      "discard_reason": "Different person"
+    },
+    {
+      "article_title": "Menyoroti Perjalanan Mangsa Penipuan Pekerjaan",
+      "discard_reason": "Name collision with a different person."
+    },
+    {
+      "article_title": "SENATE-Thursday, August 3, 1972",
+      "discard_reason": "Irrelevant"
+    }
+  ],
+  "duplicate_groups": "Findings F01 through F07 all refer to the same individual, Victor Wong Chee Meng, and the same corruption case involving AMK Town Council in Singapore. Finding F08 is unrelated to this group as it pertains to a different individual and incident.",
+  "risk_breakdown": {
+    "Financial Crime": {
+      "severity": "MEDIUM",
+      "incident_count": 1
+    },
+    "Legal/Regulatory": {
+      "severity": "CLEAR",
+      "incident_count": 0
+    },
+    "PEP/Sanctions": {
+      "severity": "CLEAR",
+      "incident_count": 0
+    },
+    "Reputational": {
+      "severity": "LOW",
+      "incident_count": 1
+    }
+  },
+  "narrative": "Victor Wong, a former general manager of Ang Mo Kio Town Council, has been convicted on 55 counts of corruption involving over $86,000 and sentenced to 27 months in prison. These incidents highlight substantial financial crime and reputational risks, particularly given his role in public service. Allegations of money laundering and potential conflicts of interest further compound concerns about his activities. While duplicate findings inflate the volume of adverse media, the unique incidents alone justify a moderate risk assessment.",
+  "caveats": "The screening includes duplicate findings that may exaggerate the perceived risk level. Additionally, one low-confidence match involving cyber fraud allegations could not be conclusively linked to the subject. Paywall restrictions may have limited access to additional relevant information."
+}
