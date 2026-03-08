@@ -755,12 +755,25 @@ class NegativeNewsScreener(dspy.Module):
                         max_sev = "HIGH"
                     elif s == "MEDIUM" and max_sev != "HIGH":
                         max_sev = "MEDIUM"
+                # Build reasoning from key facts of contributing incidents
+                reasons = []
+                for f in incidents:
+                    facts = f.get("key_facts", "").strip()
+                    fid = f.get("finding_id", "?")
+                    inc_label = " (inconclusive)" if f.get("inconclusive") else ""
+                    if facts:
+                        reasons.append(f"{fid}{inc_label}: {facts}")
                 breakdown[cat] = {
                     "severity": max_sev,
                     "incident_count": len(incidents),
+                    "reasoning": "; ".join(reasons) if reasons else "No details available.",
                 }
             else:
-                breakdown[cat] = {"severity": "CLEAR", "incident_count": 0}
+                breakdown[cat] = {
+                    "severity": "CLEAR",
+                    "incident_count": 0,
+                    "reasoning": "No adverse media found for this category.",
+                }
         return breakdown
 
 
@@ -936,6 +949,9 @@ def format_text_report(result: dict) -> str:
         bar = SEVERITY_BAR.get(sev, "░░░░░░░░░░░░")
         label = f"{sev:<8} ({count} unique incident{'s' if count != 1 else ''})" if count > 0 else "CLEAR"
         lines.append(f"    {cat:<22} {bar}  {label}")
+        reasoning = info.get("reasoning", "")
+        if reasoning and count > 0:
+            lines.append(f"      Reasoning: {reasoning}")
     lines.append("")
     lines.append("  Narrative:")
     for para_line in result.get("narrative", "").split("\n"):

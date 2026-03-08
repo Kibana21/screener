@@ -1,6 +1,6 @@
 {
-  "screening_id": "75748c0a-52fb-4de3-8509-5db668418272",
-  "screened_at": "2026-03-08T17:09:12.107363+00:00",
+  "screening_id": "6d6e4d64-14ac-40f6-8e02-8e55cc87ab83",
+  "screened_at": "2026-03-08T17:01:46.144269+00:00",
   "subject": {
     "full_name": "Victor Wong",
     "gender": "Male",
@@ -10,13 +10,13 @@
     "industry": "Government",
     "country": "Singapore",
     "discovered_aliases": [
-      "Victor Wong Chee Meng",
-      "Wong Chee Meng"
+      "Wong Chee Meng",
+      "Victor Wong Chee Meng"
     ]
   },
   "discovered_aliases": [
-    "Victor Wong Chee Meng",
-    "Wong Chee Meng"
+    "Wong Chee Meng",
+    "Victor Wong Chee Meng"
   ],
   "overall_risk_score": 32,
   "overall_risk_rating": "LOW",
@@ -205,21 +205,21 @@
       "triggered_by_query": "\"Victor Wong\" \"sanctions\" \"Singapore\"",
       "is_match": true,
       "match_confidence": 0.7,
-      "match_reasoning": "The name \"Victor Wong Chee Meng\" matches the subject's full name and one of the aliases. The article also mentions Singapore, which aligns with the subject's nationality and country. While the article does not explicitly confirm the subject's role as VP Operations in the Government of Singapore, the mention of a CPIB probe and potential conflicts of interest suggests a probable match. The lack of specific details about the subject's role or employer reduces the confidence level slightly.",
+      "match_reasoning": "The name \"Victor Wong Chee Meng\" matches the subject's full name and alias, and the article mentions Singapore, which aligns with the subject's nationality. While there is no explicit mention of the subject's job title or employer, the context of potential financial misconduct and sanctions warrants treating this as a probable match for further review.",
       "extracted_aliases": [
         "Victor Wong Chee Meng"
       ],
       "risk_categories": [
-        "Legal/Regulatory",
-        "Reputational"
+        "Financial Crime",
+        "PEP/Sanctions"
       ],
       "severity": "MEDIUM",
-      "key_facts": "The article mentions Victor Wong Chee Meng in connection with a CPIB probe and potential conflicts of interest in Singapore. The details are limited, but the context suggests possible adverse content related to legal or regulatory issues.",
+      "key_facts": "The article discusses potential conflicts of interest and financial misconduct involving \"Victor Wong Chee Meng.\" It also references sanctions and Singapore, suggesting possible adverse implications.",
       "discard_reason": "",
       "triggered_by_query_id": "Q05",
       "re_evaluated_with_aliases": [
-        "Victor Wong Chee Meng",
-        "Wong Chee Meng"
+        "Wong Chee Meng",
+        "Victor Wong Chee Meng"
       ],
       "finding_id": "F06",
       "is_duplicate": true,
@@ -234,20 +234,21 @@
       "triggered_by_query": "\"Victor Wong\" \"controversy\" \"government operations\"",
       "is_match": true,
       "match_confidence": 0.75,
-      "match_reasoning": "The article mentions \"Victor Wong Chee Meng,\" which matches an alias listed in the subject profile. The nationality (Singaporean) aligns with the subject profile, and the context of government operations is relevant to the subject's listed industry and employer. However, the article does not explicitly confirm the individual's role or employer, leaving some uncertainty. Given the alignment of the name, alias, and nationality, this is treated as a probable match.",
+      "match_reasoning": "The name \"Victor Wong Chee Meng\" matches an alias listed in the subject profile. Additionally, the nationality (Singaporean) aligns with the subject profile. While the article does not explicitly confirm the individual's job title or employer, the mention of government operations suggests a potential connection to the subject's role in the Singaporean government. Given the alignment of the name and nationality, this is considered a probable match, but the lack of additional confirming details reduces the confidence level.",
       "extracted_aliases": [
         "Victor Wong Chee Meng"
       ],
       "risk_categories": [
-        "Legal/Regulatory"
+        "Legal/Regulatory",
+        "Reputational"
       ],
       "severity": "MEDIUM",
-      "key_facts": "Victor Wong Chee Meng was sentenced to 27 months' imprisonment, as reported in a human rights-related document. The article discusses government operations, which may be relevant to the subject's profile.",
+      "key_facts": "Victor Wong Chee Meng was sentenced to 27 months' imprisonment in connection with allegations related to government operations. The article raises potential legal and reputational concerns.",
       "discard_reason": "",
       "triggered_by_query_id": "Q10",
       "re_evaluated_with_aliases": [
-        "Victor Wong Chee Meng",
-        "Wong Chee Meng"
+        "Wong Chee Meng",
+        "Victor Wong Chee Meng"
       ],
       "finding_id": "F07",
       "is_duplicate": true,
@@ -264,18 +265,18 @@
       "triggered_by_query": "\"Victor Wong\" \"penipuan\" \"Singapura\"",
       "is_match": false,
       "match_confidence": 0.4,
-      "match_reasoning": "While the name and nationality match, there is no corroborating information to confirm that the Victor Wong mentioned in the article is the same as the one in the subject profile. The context of the article (cyber fraud syndicate) is inconsistent with the subject's professional background in government operations. Additionally, no aliases or other identifying details are provided to strengthen the match.",
+      "match_reasoning": "The name Victor Wong matches, and the nationality aligns with the subject profile. However, the lack of corroborating details such as job title, employer, or aliases, combined with the significant discrepancy in the described activities (criminal syndicate versus government VP Operations), makes it unlikely that this is the same individual. The confidence level is set to 0.40 to reflect the inconclusive nature of the match.",
       "extracted_aliases": [],
       "risk_categories": [
         "Reputational"
       ],
       "severity": "LOW",
-      "key_facts": "The article discusses a Victor Wong allegedly involved in running a syndicate that lures Malaysians into cyber fraud. However, there is no evidence to confirm that this individual is the same as the Victor Wong in the subject profile.",
+      "key_facts": "The article alleges that a Singaporean named Victor Wong is involved in a syndicate luring Malaysians into cyber fraud. However, there is no evidence to confirm that this individual is the same as the Victor Wong in the subject profile.",
       "discard_reason": "Different person",
       "triggered_by_query_id": "Q09",
       "re_evaluated_with_aliases": [
-        "Victor Wong Chee Meng",
-        "Wong Chee Meng"
+        "Wong Chee Meng",
+        "Victor Wong Chee Meng"
       ],
       "finding_id": "F08",
       "inconclusive": true,
@@ -309,29 +310,25 @@
       "discard_reason": "Irrelevant"
     }
   ],
-  "duplicate_groups": "Findings F01, F02, F03, F04, F05, F06, and F07 all refer to the same corruption case involving Victor Wong Chee Meng. Finding F01 is marked as the primary source. Finding F08 is unrelated and not part of this group.",
+  "duplicate_groups": "Findings F01 through F07 all refer to the same individual, Victor Wong Chee Meng, and the same corruption case involving AMK Town Council in Singapore. Finding F08 is unrelated to this group as it pertains to a different individual and incident.",
   "risk_breakdown": {
     "Financial Crime": {
       "severity": "MEDIUM",
-      "incident_count": 1,
-      "reasoning": "F01: Victor Wong Chee Meng, a former general manager and secretary of AMKTC, was convicted on 55 counts of corruption involving over $86,000 and sentenced to 27 months in jail."
+      "incident_count": 1
     },
     "Legal/Regulatory": {
       "severity": "CLEAR",
-      "incident_count": 0,
-      "reasoning": "No adverse media found for this category."
+      "incident_count": 0
     },
     "PEP/Sanctions": {
       "severity": "CLEAR",
-      "incident_count": 0,
-      "reasoning": "No adverse media found for this category."
+      "incident_count": 0
     },
     "Reputational": {
       "severity": "LOW",
-      "incident_count": 1,
-      "reasoning": "F08 (inconclusive): The article discusses a Victor Wong allegedly involved in running a syndicate that lures Malaysians into cyber fraud. However, there is no evidence to confirm that this individual is the same as the Victor Wong in the subject profile."
+      "incident_count": 1
     }
   },
-  "narrative": "Victor Wong has been convicted of 55 counts of corruption involving over $86,000 during his tenure as a general manager at Ang Mo Kio Town Council in Singapore. This conviction, along with a 27-month jail sentence, underscores significant financial crime and reputational risks associated with the subject. While duplicate findings were identified, the confirmed incidents of bribery and corruption are substantial and raise concerns about the subject's integrity and compliance with legal standards. The findings suggest a need for further scrutiny to assess potential risks in onboarding or engagement.",
-  "caveats": "The screening includes duplicate findings, which may inflate the perceived severity of incidents. Additionally, one report was inconclusive due to insufficient evidence linking the subject to the alleged activity. Paywall restrictions may have limited access to additional corroborative sources."
+  "narrative": "Victor Wong, a former general manager of Ang Mo Kio Town Council, has been convicted on 55 counts of corruption involving over $86,000 and sentenced to 27 months in prison. These incidents highlight substantial financial crime and reputational risks, particularly given his role in public service. Allegations of money laundering and potential conflicts of interest further compound concerns about his activities. While duplicate findings inflate the volume of adverse media, the unique incidents alone justify a moderate risk assessment.",
+  "caveats": "The screening includes duplicate findings that may exaggerate the perceived risk level. Additionally, one low-confidence match involving cyber fraud allegations could not be conclusively linked to the subject. Paywall restrictions may have limited access to additional relevant information."
 }
